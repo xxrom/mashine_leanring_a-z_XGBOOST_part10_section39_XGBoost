@@ -50,5 +50,5 @@ accuracies = cross_val_score(
   cv = 10 # количество тестовых разбивок для проверки точности модели
   #,n_jobs = -1 # если большие данные, то можно использовать все ядра проца
 )
-accuracies.mean() # 90% accuracy from 10 numbers
-accuracies.std() # standart deviation (отклонение точностей) меньше - лучше
+accuracies.mean() # 86.2% accuracy from 10 numbers
+accuracies.std() # 1% standart deviation (отклонение точностей) меньше - лучше
